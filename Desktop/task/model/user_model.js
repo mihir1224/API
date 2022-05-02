@@ -25,4 +25,4 @@ const userSchema = new mongoose.Schema({
   birthDate: Date,
 });
 
-module.exports = mongoose.model("user", userSchema);
+module.exports = mongoose.model("users", userSchema);
